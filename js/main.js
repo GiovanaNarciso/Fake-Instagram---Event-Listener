@@ -23,7 +23,7 @@ const toggleHeart = (elemento) => {
         //exercicio 4
         heart.nextElementSibling.innerHTML = '1 like'
     } else {
-        heart.src = '/img/icons/heart.svg'
+        heart.src = 'img/icons/heart.svg'
 
         //exercicio 4
         heart.nextElementSibling.innerText = '0 like'
