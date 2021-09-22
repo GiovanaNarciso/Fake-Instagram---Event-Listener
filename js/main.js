@@ -18,7 +18,7 @@ const toggleHeart = (elemento) => {
     let heart = elemento;
     console.log(heart.src);
     if (heart.src.includes('/img/icons/heart.svg')) {
-        heart.src = 'img/red-heart.png';
+        heart.src = '/img/red-heart.png';
 
         //exercicio 4
         heart.nextElementSibling.innerHTML = '1 like'
